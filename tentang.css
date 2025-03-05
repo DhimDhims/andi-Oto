@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "blkchcry";
+    src: url('font/blkchcry.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #fff, #f8c3e3); /* Gradient pink */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "blkchcry";    
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links .nav-item {
+    margin: 0 10px;
+}
+
+.nav-links .nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-links .nav-link:hover {
+    color: #fff;
+    background-color: #e9007f;
+    border-radius: 5px;
+}
+
+
+.container {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    min-height: 8;
+}
+
+.box{
+    margin-top: 20vh;
+}
+
+.box {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #e9007f;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "blkchcry";
+}
+
+/* Subjudul */
+h4 {
+    color: #0096ff;
+    font-size: 22px;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.shadow1 {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
