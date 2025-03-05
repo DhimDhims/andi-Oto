@@ -2,8 +2,9 @@
 
 @font-face {
     font-family: "blkchcry";
-    src: url('FONT/blkchcry.ttf') format('truetype');
+    src: url('font/blkchcry.woff2') format('woff2');
 }
+
 
 
 * {
