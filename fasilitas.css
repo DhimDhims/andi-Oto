@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: "blkchcry";
-    src: url('font/blkchcry.woff') format('woff');
+    font-family: 'BlackChancery';
+    src: url('FONT/blkchcry.woff2') format('woff2'),
+         url('FONT/blkchcry.woff') format('woff'),
+         url('FONT/blkchcry.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
