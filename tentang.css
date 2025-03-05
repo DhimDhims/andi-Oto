@@ -30,7 +30,7 @@ body {
     color: #333;
     font-size: 24px;
     font-weight: bold;
-    font-family: "blkchcry";    
+    font-family: "blkchcry", sans-serif;    
 }
 
 .nav-links {
